@@ -11,8 +11,8 @@ describe('gold', () => {
     it('should load the page', () => {
         cy.url().should('include', 'easystepin-uat.meepaisa.com')
 
-        cy.get('#email').type("taruni.gundraju@easystepin.com")
-        cy.get('#password').type("Step@12345")
+        cy.get('#email').type("rakesh.sirasanambeti@easystepin.com")
+        cy.get('#password').type("Rakesh@123")
 
         cy.xpath('/html/body/div[1]/div/div/div[1]/div/form/button').click()
 
